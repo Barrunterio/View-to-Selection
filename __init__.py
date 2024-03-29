@@ -1,16 +1,15 @@
-# (GNU GPL) <2022> <Taiseibutsu>" Developed for Blender 3.2
-# This program is free software: you can redistribute it and/or modify it, WITHOUT ANY WARRANTY that you wont focus on the non selected void from the meshes of tomorrow.
+#Tested on Blender 4.1
 
 bl_info = {
-    "name": "View to individual selection (TB)",
-    "author": "Taiseibutsu",
+    "name": "View to individual selection",
+    "author": "Barrunterio",
     "version": (0, 1),
     "blender": (2, 80, 0),
     "location": "View3D",
-    "description": "Move view to individual selection",
+    "description": "Center view to individual selection",
     "warning": "",
     "doc_url": "",
-    "category": "TB",
+    "category": "",
 }
 import bpy, bmesh,mathutils
 from bpy.props import BoolProperty, IntProperty, EnumProperty
